@@ -5,14 +5,11 @@ from pprint import pprint
 sites = {
     'Moscow': (550, 370),
     'London': (510, 510),
-    'Paris': (480, 480),
+    'Paris' : (480, 480),
 }
 # Составим словарь словарей расстояний между ними
 # расстояние на координатной сетке - корень из (x1 - x2) ** 2 + (y1 - y2) ** 2
 distances = {}
-'''distances['moscow']={}
-distances['london']={}
-distances['paris' ]={}'''
 moscow=sites['Moscow']
 london=sites['London']
 paris =sites['Paris' ]
